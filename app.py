@@ -40,9 +40,9 @@ CLIENT_SECRET = "2ee44819e9b4598845141067b281621874d0d5d7af9d8f7e00c1e54715b7d1e
 CLIENT_ID     = "100067"
 
 FALLBACK_VERSION_DATA = {
-    "IND":     {"client_url": "https://client.ind.freefiremobile.com/", "server_url": "https://loginbp.ggpolarbear.com/", "release_version": "OB54", "client_version": "1.126.2"},
-    "AMERICA": {"client_url": "https://client.us.freefiremobile.com/",  "server_url": "https://loginbp.ggpolarbear.com/", "release_version": "OB54", "client_version": "1.126.2"},
-    "OTHERS":  {"client_url": "https://clientbp.ggpolarbear.com/",      "server_url": "https://loginbp.ggpolarbear.com/", "release_version": "OB54", "client_version": "1.126.2"},
+    "IND": {"client_url": "https://client.ind.freefiremobile.com/", "server_url": "https://loginbp.ggpolarbear.com/", "release_version": "OB55", "client_version": "1.132.4"},
+    "AMERICA": {"client_url": "https://client.us.freefiremobile.com/", "server_url": "https://loginbp.ggpolarbear.com/", "release_version": "OB55", "client_version": "1.132.4"},
+    "OTHERS": {"client_url": "https://clientbp.ppmainecoonghj.com/", "server_url": "https://loginbp.ppmainecoonghj.com/", "release_version": "OB55", "client_version": "1.132.4"}
 }
 
 REGION_FOR_MAJOR_LOGIN = {
