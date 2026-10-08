@@ -54,7 +54,7 @@ REGION_FOR_MAJOR_LOGIN = {
 ACCOUNTS = {
     "IND":     {"uid": "4276349238", "password": "855D364BEA1D88611B5C0CD8207F9E88F52898B27BD4A9BF4A2F7EE4D9340639"},
     "AMERICA": {"uid": "5105330136", "password": "C8D428FAC9BC60109E1AC1EF85E4FB836BD5F987BFB150A62A223A6FE6944FBC"},
-    "OTHERS":  {"uid": "5105330136", "password": "C8D428FAC9BC60109E1AC1EF85E4FB836BD5F987BFB150A62A223A6FE6944FBC"},
+    "OTHERS":  {"uid": "5105330272", "password": "DB9AFFD12A2FC39F536DEAED8DECEA410BC377C0D70ACCB69C595A197854D091"},
 }
 
 # ============================================================
@@ -459,4 +459,4 @@ def force_version_update():
         return jsonify({"status": "error", "message": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=False, threaded=True)
+    app.run(host='0.0.0.0', port=5001, debug=False, threaded=True)
